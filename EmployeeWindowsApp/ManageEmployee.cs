@@ -45,7 +45,7 @@ namespace EmployeeWindowsApp
 
                 dataGridView1.Rows.RemoveAt(oneCell.RowIndex);
 
-                MessageBox.Show($"Employee {name} deleted sucessfully !!!");
+                MessageBox.Show("Employee {name} deleted sucessfully !!!");
             }
         }
 
